@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="4.0.0" />
+    <PackageReference Include="DNS" Version="5.0.0" />
+  </ItemGroup>
+	<PropertyGroup>
+		<RuntimeIdentifiers>win-x86;win-x64;linux-x86;linux-x64;osx-x64</RuntimeIdentifiers>
+	</PropertyGroup>
+</Project>

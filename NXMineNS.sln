@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXMineNS", "NXMineNS\NXMineNS.csproj", "{F849F77E-BB9F-478C-8504-AFF12501CEDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F849F77E-BB9F-478C-8504-AFF12501CEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F849F77E-BB9F-478C-8504-AFF12501CEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F849F77E-BB9F-478C-8504-AFF12501CEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F849F77E-BB9F-478C-8504-AFF12501CEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12DBFACF-B6E9-44F4-B4B7-982B8E5E4DBE}
+	EndGlobalSection
+EndGlobal
