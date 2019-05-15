@@ -13,10 +13,17 @@ To assist in getting custom servers on console Minecraft. This will redirect all
 ## How to use
 
 ### Windows Instructions
+
 1. Download the latest release to a computer of choice.
-2. Make sure .NET core 2.1+ is installed on your computer and run either the NXMineNS.exe (`NXMineNS.exe 192.168.1.12` (Replace with IP of desired server))
+2. Make sure .NET core 2.1+ is installed on your computer and run the NXMineNS.exe (`NXMineNS.exe 192.168.1.12` (Replace with IP of desired server))
 3. Make your computers IP Address the Primary DNS in your Switches Network settings.
 4. Open Minecraft
 5. Watch as most if not all the different featured servers all show the custom servers stats.
 
-### Linux Instructions (Debian / Ubuntu)
+### Linux Instructions (Debian / Ubuntu) & Mac OSX
+
+1. Download the latest release to a computer of choice.
+2. Make sure .NET core 2.1+ is installed on your computer and run the NXMineNS (`dotnet ./NXMineNS 192.168.1.12` (Replace with IP of desired server))
+3. Make your computers IP Address the Primary DNS in your Switches Network settings.
+4. Open Minecraft
+5. Watch as most if not all the different featured servers all show the custom servers stats.
