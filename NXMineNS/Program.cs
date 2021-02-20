@@ -42,10 +42,11 @@ namespace NXMineNS
 
             // Resolve these domain to given ip
             masterFile.AddIPAddressResourceRecord("play.inpvp.net", ip);
-            masterFile.AddIPAddressResourceRecord("mco.lbsg.net", ip);
-            masterFile.AddIPAddressResourceRecord("mco.mineplex.com", ip);
+            masterFile.AddIPAddressResourceRecord("play.lbsg.net", ip);
+            masterFile.AddIPAddressResourceRecord("pe.mineplex.com", ip);
             masterFile.AddIPAddressResourceRecord("mco.cubecraft.net", ip);
-            masterFile.AddIPAddressResourceRecord("hivebedrock.network", ip);
+            masterFile.AddIPAddressResourceRecord("geo.hivebedrock.network", ip);
+            masterFile.AddIPAddressResourceRecord("play.galaxite.net", ip);
 
             // Log every request
             server.Requested += (sender, e) => Console.WriteLine(e.Request);
