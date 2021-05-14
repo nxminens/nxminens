@@ -45,8 +45,8 @@ namespace NXMineNS
             masterFile.AddIPAddressResourceRecord("play.lbsg.net", ip);
             masterFile.AddIPAddressResourceRecord("pe.mineplex.com", ip);
             masterFile.AddIPAddressResourceRecord("mco.cubecraft.net", ip);
-            masterFile.AddIPAddressResourceRecord("geo.hivebedrock.network", ip);
-            masterFile.AddIPAddressResourceRecord("play.galaxite.net", ip);
+            masterFile.AddIPAddressResourceRecord("geo.hivebedrock.network", "173.199.115.154");
+            masterFile.AddIPAddressResourceRecord("play.galaxite.net", "104.238.130.180");
 
             // Log every request
             server.Requested += (sender, e) => Console.WriteLine(e.Request);
